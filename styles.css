@@ -1,0 +1,14 @@
+#voxly-chrome-extension-root {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2147483647;
+    pointer-events: none; /* Allow clicks to pass through to the underlying page */
+}
+
+/* Re-enable pointer events for direct children, so UI elements are clickable */
+#voxly-chrome-extension-root > * {
+    pointer-events: auto;
+}

@@ -1,0 +1,4 @@
+{
+  "name": "Video Translator Auth UI",
+  "description": "A React application demonstrating a login/registration UI where the 'Create Account' button redirects to an external page, based on an existing Chrome extension's UI."
+}
